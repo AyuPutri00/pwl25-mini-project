@@ -1,0 +1,27 @@
+{
+  "name": "uts-students-api",
+  "version": "1.0.0",
+  "description": "UTS Mini Project - Students CRUD API with Express.js and MySQL",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "crud",
+    "students",
+    "api"
+  ],
+  "author": "Student",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
